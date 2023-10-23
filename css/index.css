@@ -1,0 +1,13 @@
+:root {
+    --max-width: 1200px;
+    --section-size: 360px;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: var(--max-width);
+}

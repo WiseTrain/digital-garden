@@ -1,0 +1,15 @@
+/* container of all demo sections */
+.g-section-container {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+
+    width: fit-content;
+    margin: auto;
+}
+/* one demo-section */
+.g-section {
+    width: var(--section-size);
+    height: var(--section-size);
+}
