@@ -1,13 +1,55 @@
+/* GENERAL STYLES FOR DIGITAL GARDENS */
 :root {
     --max-width: 1200px;
     --section-size: 360px;
+    --offset: 20px;
   }
   
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana;
 }
 
-body {
+main {
     max-width: var(--max-width);
+    margin: auto;
+}
+
+.attribution {
+    font-size: 0.5rem;
+    color: black;
+}
+
+.pointer {
+    width: calc(var(--section-size) - var(--offset));
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: right;
+}
+
+.pointer svg {
+    width: calc(var(--section-size)/4 - (var(--offset)/2));
+    height: calc(var(--section-size)/4);
+
+    stroke: black;
+    stroke-width: 3px;
+    fill: none;
+}
+
+.round-click {
+    width: calc(var(--section-size)/4);
+    height: calc(var(--section-size)/4);
+
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }

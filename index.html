@@ -9,14 +9,38 @@
         <main>
             <h1>Digital garden</h1>
             <div class="g-section-container">
-                <section class="g-section">hi</section>
-                <section class="g-section">hello</section>
-                <section class="g-section">hullo</section>
-                <section class="g-section">hhh</section>
-
+                <section class="g-section" id="s1">
+                    <!-- BULB -->
+                    <h4>s1:bulb</h4>
+                    <div class="pointer">
+                        <svg>
+                            <path id="line1"  
+                                d="M 5 90 C 10 65 40 45 75 45" 
+                                stroke-dasharray="5 3"
+                                fill="transparent"/>
+                            <path id="line2" 
+                                d="M 60 40 L 75 45 L 61 52" 
+                                fill="transparent"/>
+                        </svg>
+                        <div class="round-click" onclick="switch_light()">
+                            <p>click</p>
+                            <p>here</p>
+                        </div>
+                    </div>
+                    <div class="bulb" id="bulb-container">
+                        <img src="./img/bulb.png">
+                    </div>
+                    
+                    <p class="attribution"><a href="https://www.freepik.com/free-vector/bulb-icon_810569.htm#query=light%20bulb&position=10&from_view=keyword&track=ais">Image by kreativkolors</a> on Freepik</p>
+                </section>
+                <section class="g-section"></section>
+                <section class="g-section"></section>
+                <section class="g-section"></section>
             </div>
         </main>
         <footer></footer>
         <script src="./js/index.js" type="module"></script>
+        <script src="./js/light.js"></script> 
+
     </body>
 </html>

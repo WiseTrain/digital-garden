@@ -1,14 +1,15 @@
-import { getColour } from "./data.js";
+import { getColour, getBorder } from "./data.js";
 
 // index page constructor
 function main() {
 
     // give random bg colors to section
     const all_sections = document.querySelectorAll(".g-section");
-    console.log(all_sections)
+    // console.log(all_sections)
     all_sections.forEach(element => {
         element.style.backgroundColor = getColour();
-        console.log(element.style.backgroundColor );
+        if (getBorder(element.style.backgroundColor)) 
+            element.classList.add("g-border");
     });
 }
 
