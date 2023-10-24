@@ -9,8 +9,8 @@ example of
 - element.classList.remove("light-on")
 
 LINKS:  
-#### <svg>, <path>: 
+#### svg, path: 
 https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths
 
-#### errows:
+#### arrows:
 https://codepen.io/cpandya/pen/Gevvqg
