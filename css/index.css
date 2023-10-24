@@ -21,6 +21,13 @@ main {
     color: black;
 }
 
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
 .pointer {
     width: calc(var(--section-size) - var(--offset));
     display: flex;

@@ -11,6 +11,7 @@ function main() {
         if (getBorder(element.style.backgroundColor)) 
             element.classList.add("g-border");
     });
+
 }
 
 main();
