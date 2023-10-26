@@ -25,3 +25,7 @@ Use reduce() for array of function to perform a sequence of calculations (see co
 LINKS:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
 
+## s4: Async Function Sequential Piping
+Use reduce() for array of async function to perform a sequence of calculations (see code for details)
+LINKS:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
