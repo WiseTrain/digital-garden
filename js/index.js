@@ -15,3 +15,8 @@ function main() {
 }
 
 main();
+
+
+// querySelectorAll:
+// https://www.w3schools.com/jsref/met_document_queryselectorall.asp
+// https://www.w3schools.com/cssref/css_selectors.php

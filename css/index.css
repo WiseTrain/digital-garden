@@ -3,12 +3,20 @@
     --max-width: 1200px;
     --section-size: 360px;
     --offset: 20px;
+    --black: #000000;
+    --white: #FFFFFF; 
   }
   
 * {
     margin: 0;
     padding: 0;
     font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 main {
@@ -18,7 +26,9 @@ main {
 
 .attribution {
     font-size: 0.5rem;
-    color: black;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 .bold {
@@ -26,6 +36,10 @@ main {
 }
 .italic {
     font-style: italic;
+}
+
+.center {
+    text-align: center;
 }
 
 .pointer {
@@ -40,7 +54,7 @@ main {
     width: calc(var(--section-size)/4 - (var(--offset)/2));
     height: calc(var(--section-size)/4);
 
-    stroke: black;
+    stroke: var(--black);
     stroke-width: 3px;
     fill: none;
 }
@@ -49,7 +63,7 @@ main {
     width: calc(var(--section-size)/4);
     height: calc(var(--section-size)/4);
 
-    border-color: black;
+    border-color: var(--black);
     border-width: 3px;
     border-style: dashed;
     border-radius: 50%;
